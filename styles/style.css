@@ -24,6 +24,7 @@
 body {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .topnav {
@@ -83,10 +84,54 @@ banner
     color: #FFFFFF;
 }
 
-img {
+.banner-image img {
 
     width: 1000px;
     height: 500px;
     margin: 20px 228px;
 
+}
+
+.features-container {
+    display: flex;
+}
+
+.features-image {
+    margin: 33px 44px;
+}
+
+.features-image img {
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+.features-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.features-details {
+    margin-top: 250px;
+}
+
+.button2 {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+
+
+}
+
+.button2 a {
+    text-decoration: none;
+    width: 131px;
+    height: 23px;
+
+    font-family: 'Work Sans', sans-serif;
+
+    font-weight: 600;
+    font-size: 20px;
 }
