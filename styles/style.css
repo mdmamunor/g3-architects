@@ -138,6 +138,43 @@ banner
 }
 
 
+/* -----------
+
+------------------------*/
+.feature-another-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 44px 200px;
+}
+
+.vl {
+    border-left: 6px solid orange;
+    height: 77px;
+    margin-bottom: 30px;
+
+
+}
+
+.another-feature-title {
+    font-size: 40px;
+
+}
+
+.features-type {
+
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8cb;
+}
+
+.feature-another-container img {
+    height: 800px;
+    width: 500px;
+}
+
+
+
+
 .facts-title {
     margin-left: 200px;
 }
@@ -159,6 +196,11 @@ banner
     margin-right: 100px;
     text-align: center;
     padding-top: 20px;
+}
+
+.facts-one :hover {
+    background-color: #FF900E;
+    color: red;
 }
 
 
