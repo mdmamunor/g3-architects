@@ -172,7 +172,9 @@ banner
     width: 500px;
 }
 
-
+/* ----------
+facts corner
+----------------------*/
 
 
 .facts-title {
@@ -223,6 +225,9 @@ banner
     margin-bottom: 55px;
 }
 
+/* -----------
+footer
+------------- */
 
 
 .footer {
@@ -232,4 +237,123 @@ banner
     background-color: #ddd;
     margin-left: 200px;
     margin-bottom: 55px;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .nav-title {
+        margin-left: 120px;
+
+        margin-top: 50px;
+        font-family: 'Work Sans', sans-serif;
+
+        font-weight: 700;
+
+
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+
+    }
+
+    .banner {
+        margin: 50px 50px;
+    }
+
+    .button {
+        width: 180px;
+        height: 64px;
+        background: #FF900E;
+        border-radius: 8px;
+        margin: 10px 50px;
+
+    }
+
+
+    .banner-image img {
+
+        width: 330px;
+        height: 250px;
+        margin: 20px 22px;
+
+    }
+
+    .features-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        margin-left: 20px;
+    }
+
+    .features-details {
+        margin-top: 25px;
+    }
+
+    .feature-another-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 44px 20px;
+    }
+
+    .features-type {
+
+        /* padding: 5px; */
+        margin-bottom: 10px;
+        background-color: #f8f8f8cb;
+    }
+
+    .feature-another-container img {
+        height: 400px;
+        width: 300px;
+    }
+
+
+    .facts-title {
+        margin-left: 20px;
+    }
+
+    .facts-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10px;
+
+    }
+
+    .unique {
+        margin-left: 23px;
+    }
+
+    .facts-one {
+        height: 150px;
+        width: 150px;
+        border: 3px solid orangered;
+        border-radius: 10px;
+        margin-right: 100px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 23px;
+        margin-bottom: 12px;
+    }
+
+    .footer {
+        text-align: center;
+        width: 350px;
+        height: 30px;
+        background-color: #ddd;
+        margin-left: 10px;
+        margin-bottom: 55px;
+    }
+
 }
